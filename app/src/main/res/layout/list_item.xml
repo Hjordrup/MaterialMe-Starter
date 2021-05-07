@@ -30,7 +30,7 @@
 
         <TextView
             android:layout_alignBottom="@+id/sportsImage"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:theme="@style/SportsTitle"
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,6 +40,7 @@
         <TextView
             android:textColor="?android:textColorSecondary"
             android:layout_below="@+id/sportsImage"
+            android:theme ="@style/SportsDetailText"
             android:id="@+id/newsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,6 +50,7 @@
         <TextView
             android:layout_below="@+id/newsTitle"
             android:id="@+id/subTitle"
+            android:theme ="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
